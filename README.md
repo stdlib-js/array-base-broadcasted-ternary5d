@@ -74,7 +74,7 @@ var bternary5d = require( '@stdlib/array-base-broadcasted-ternary5d' );
 Applies a ternary callback to elements in three [broadcasted][@stdlib/array/base/broadcast-array] nested input arrays and assigns results to elements in a five-dimensional nested output array.
 
 ```javascript
-var add = require( '@stdlib/math-base-ops-add3' );
+var add = require( '@stdlib/number-float64-base-add3' );
 var zeros5d = require( '@stdlib/array-base-zeros5d' );
 
 var x = [ [ [ 1.0, 2.0 ] ] ];
@@ -123,7 +123,7 @@ The function accepts the following arguments:
 var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
 var filled5dBy = require( '@stdlib/array-base-filled5d-by' );
 var zeros5d = require( '@stdlib/array-base-zeros5d' );
-var add = require( '@stdlib/math-base-ops-add3' );
+var add = require( '@stdlib/number-float64-base-add3' );
 var bternary5d = require( '@stdlib/array-base-broadcasted-ternary5d' );
 
 var shapes = [
@@ -187,7 +187,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
