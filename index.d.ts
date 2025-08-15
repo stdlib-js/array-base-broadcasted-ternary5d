@@ -18,7 +18,7 @@
 
 // TypeScript Version: 4.1
 
-/// <reference types="@stdlib/types"/>
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
 import { Array1D, Array2D, Array3D, Array4D, Array5D } from '@stdlib/types/array';
 import { Shape1D, Shape2D, Shape3D, Shape4D, Shape5D } from '@stdlib/types/ndarray';
