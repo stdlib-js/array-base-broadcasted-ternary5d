@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import bternary5d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-ternary5d@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-broadcasted-ternary5d/tags). For example,
+
+```javascript
 import bternary5d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-ternary5d@v0.1.1-esm/index.mjs';
 ```
 
@@ -111,7 +116,7 @@ var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-bas
 import filled5dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled5d-by@esm/index.mjs';
 import zeros5d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros5d@esm/index.mjs';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-add3@esm/index.mjs';
-import bternary5d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-ternary5d@v0.1.1-esm/index.mjs';
+import bternary5d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-ternary5d@esm/index.mjs';
 
 var shapes = [
     [ 1, 1, 1, 1, 3 ],
