@@ -1,5 +1,0 @@
-"use strict";var jr=function(t,a){return function(){try{return a||t((a={exports:{}}).exports,a),a.exports}catch(y){throw (a=0, y)}};};var ur=jr(function(Sr,sr){
-var G=require('@stdlib/array-base-broadcast-array/dist');function kr(t,a,y){var H,I,J,K,L,M,N,O,P,Q,R,T,U,V,W,f,m,s,u,j,i,x,e,o,z,k,n,w,S,c,b,q,A,g,l,B,C,D,E,F,X,Y,Z,_,$,p,h,rr,ar,vr,dr,tr,v,r,ir,xr,er,or,d,zr,yr,fr,mr;if(v=a[3],f=v[4],m=v[3],s=v[2],u=v[1],j=v[0],!(f<=0||m<=0||s<=0||u<=0||j<=0))for(d=G(t[0],a[0],v),zr=d.data,r=d.strides,H=r[4],I=r[3],J=r[2],K=r[1],L=r[0],d=G(t[1],a[1],v),yr=d.data,r=d.strides,M=r[4],N=r[3],O=r[2],P=r[1],Q=r[0],d=G(t[2],a[2],v),fr=d.data,r=d.strides,R=r[4],T=r[3],U=r[2],V=r[1],W=r[0],mr=t[3],c=0,l=0,F=0,z=0;z<j;z++){for(S=0,g=0,E=0,_=zr[c],rr=yr[l],tr=fr[F],or=mr[z],o=0;o<u;o++){for(w=0,A=0,D=0,Z=_[S],h=rr[g],dr=tr[E],er=or[o],e=0;e<s;e++){for(n=0,q=0,C=0,Y=Z[w],p=h[A],vr=dr[D],xr=er[e],x=0;x<m;x++){for(k=0,b=0,B=0,X=Y[n],$=p[q],ar=vr[C],ir=xr[x],i=0;i<f;i++)ir[i]=y(X[k],$[b],ar[B]),k+=H,b+=M,B+=R;n+=I,q+=N,C+=T}w+=J,A+=O,D+=U}S+=K,g+=P,E+=V}c+=L,l+=Q,F+=W}}sr.exports=kr
-});var nr=ur();module.exports=nr;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
